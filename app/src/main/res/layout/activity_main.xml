@@ -1,0 +1,35 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:id="@+id/txtshow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn1"
+        android:onClick="simple"
+        android:text="简单对话框"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn2"
+        android:onClick="simplelist"
+        android:text="简单列表对话框"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn3"
+        android:onClick="radiolist"
+        android:text="简单单选列表对话框"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn4"
+        android:onClick="chocekbox"
+        android:text="简单多选列表对话框"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
